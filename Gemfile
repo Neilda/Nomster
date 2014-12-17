@@ -38,6 +38,8 @@ gem 'autoprefixer-rails'
 
 gem 'kaminari', '~> 0.16.1'
 
+gem 'simple_form'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
