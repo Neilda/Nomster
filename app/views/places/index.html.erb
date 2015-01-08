@@ -5,6 +5,13 @@
 		<i><%= place.address %></i><br /><br />
 		<p><%= place.description %></p><br />
 
+    <% if place.photos.present? %>
+         <div class="col-xs-12 col-sm-6">
+           <%= image_tag place.photos.last.picture %><br />
+           <%= place.photos.last.caption %>
+         </div>
+    <% end %>
+
 		<% if place.user.present? %>
 			<small><%= place.user.email %></small>
 		<% end %>
