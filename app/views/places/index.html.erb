@@ -7,7 +7,7 @@
 
     <% if place.photos.present? %>
          <div class="col-xs-12 col-sm-6">
-           <%= image_tag place.photos.last.picture %><br />
+           <%= image_tag place.photos.last.picture, :class => 'img-thumbnail' %><br />
            <%= place.photos.last.caption %>
          </div>
     <% end %>
