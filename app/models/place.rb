@@ -9,5 +9,5 @@ class Place < ActiveRecord::Base
 	validates :address, :presence => true
 	validates :description, :presence => true
 
-	mount_uploader :picture, PictureUploader
+#	mount_uploader :picture, PictureUploader
 end
